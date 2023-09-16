@@ -3,6 +3,7 @@ from aocd.post import submit
 day = 1
 year = 2022
 data = get_data(day=day, year=year)
+print(data)
 
 #part 1:
 #submit(ans1,1,day,year)
