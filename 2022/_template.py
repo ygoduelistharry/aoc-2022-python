@@ -1,5 +1,6 @@
 from aocd.get import get_data
 from aocd.post import submit
+import numpy as np
 day = 1
 year = 2022
 data = get_data(day=day, year=year)
