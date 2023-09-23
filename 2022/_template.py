@@ -5,6 +5,7 @@ day = 1
 year = 2022
 data = get_data(day=day, year=year)
 print(data)
+clean_data = data.split("\n")
 
 #part 1:
 #submit(ans1,1,day,year)
