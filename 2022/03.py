@@ -28,7 +28,7 @@ def find_matching_element(a, b, c=None):
     
     return
 
-def priority(char):
+def char_to_index(char):
     if ord(char)>=97:
         return ord(char) - 96
     if ord(char)>=65:
@@ -39,7 +39,7 @@ priority_sum = 0
 for rucksack in rucksack_list:
     c1 = rucksack[0]
     c2 = rucksack[1]
-    priority_sum += priority(find_matching_element(c1,c2))
+    priority_sum += char_to_index(find_matching_element(c1,c2))
 
 #part 1
 submit(priority_sum,1,3,2022)
@@ -58,7 +58,7 @@ for group in elf_groups:
     c1 = group[0]
     c2 = group[1]
     c3 = group[2]
-    priority_sum_2 += priority(find_matching_element(c1,c2,c3))
+    priority_sum_2 += char_to_index(find_matching_element(c1,c2,c3))
 
 #part 2
 submit(priority_sum_2,2,3,2022)
