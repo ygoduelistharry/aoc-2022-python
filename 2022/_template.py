@@ -2,7 +2,9 @@ from aocd.get import get_data
 from aocd.post import submit
 from ast import literal_eval as leval
 import numpy as np
+import polars as pl
 import _utils as util
+import re
 import os
 
 day = int(util.get_file_name(__file__))

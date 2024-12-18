@@ -32,3 +32,6 @@ def custom_bubble_sort(arr:list, comparator=None):
             else:
                 arr[j] = right
                 arr[j+1] = left
+
+# Useful regex strings:
+re_get_ints = r'-?\d+'
