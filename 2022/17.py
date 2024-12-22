@@ -12,9 +12,9 @@ print(data)
 clean_data = data.split("\n")
 
 # part 1/2:
-# bitwise solution for more checking collision.
-# each row can be represented as a single integer and be operated on with bitwise ops.
-# the tower likely just repeats itself at some point, so uses a cache of states to detect a repeat.
+# bitwise solution for checking collision
+# each row can be represented as a single integer and be operated on with bitwise op
+# the tower likely just repeats itself at some point, so uses a cache of states to detect a repeat
 
 # eg if the tower row looks like [..#.##.], then the integer representing it will be c[2] + c[4] + c[5] = 20
 c = [64,32,16,8,4,2,1]

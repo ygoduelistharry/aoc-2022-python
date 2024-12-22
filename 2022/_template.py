@@ -1,6 +1,7 @@
 from aocd.get import get_data
 from aocd.post import submit
 from ast import literal_eval as leval
+from collections import namedtuple
 import numpy as np
 import polars as pl
 import _utils as util
