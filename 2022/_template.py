@@ -5,6 +5,7 @@ from collections import namedtuple
 import numpy as np
 import polars as pl
 import _utils as util
+import timeit
 import re
 import os
 
