@@ -1,14 +1,9 @@
 from aocd.get import get_data
 from aocd.post import submit
-from ast import literal_eval as leval
-from collections import namedtuple
-import numpy as np
 from copy import deepcopy
-import polars as pl
 import _utils as util
 import math
 import timeit
-import re
 import os
 
 day = int(util.get_file_name(__file__))
